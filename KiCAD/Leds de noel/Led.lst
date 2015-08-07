@@ -1,0 +1,78 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 01/05/2014 21:20:14
+#Cmp ( ordre = Référence )
+| D1         LED         
+| D2         LED         
+| D3         LED         
+| D4         LED         
+| D5         LED         
+| D6         LED         
+| D7         LED         
+| D8         LED         
+| D9         LED         
+| D10        LED         
+| D11        LED         
+| D12        LED         
+| D13        LED         
+| D14        LED         
+| D15        LED         
+| D16        LED         
+| P1         CONN_5      
+| R1         R           
+| R2         R           
+| R3         R           
+| R4         R           
+| R5         R           
+| R6         R           
+| R7         R           
+| R8         R           
+| R9         R           
+| R10        R           
+| R11        R           
+| R12        R           
+| R13        R           
+| R14        R           
+| R15        R           
+| R16        R           
+| U1         74HC595     
+| U2         74HC595     
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| LED          D1        
+| LED          D2        
+| LED          D3        
+| LED          D4        
+| LED          D5        
+| LED          D6        
+| LED          D7        
+| LED          D8        
+| LED          D9        
+| LED          D10       
+| LED          D11       
+| LED          D12       
+| LED          D13       
+| LED          D14       
+| LED          D15       
+| LED          D16       
+| CONN_5       P1        
+| R            R1        
+| R            R2        
+| R            R3        
+| R            R4        
+| R            R5        
+| R            R6        
+| R            R7        
+| R            R8        
+| R            R9        
+| R            R10       
+| R            R11       
+| R            R12       
+| R            R13       
+| R            R14       
+| R            R15       
+| R            R16       
+| 74HC595      U1        
+| 74HC595      U2        
+#End Cmp
+
+#End List

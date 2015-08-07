@@ -1,0 +1,7 @@
+Horloge avec 2 afficheurs de 2 segments.
+
+V0.1 : Utilise 2 74SN959 qui gèrent 1 Sept segment chacun, les sept segments eux sont tous reliés à la masse.
+
+V0.2 : Utilise 2 74SN959 un qui gère les masses a l’état bas active la colonne et le second 74SN959 gère les segments à utiliser (a, b, c, …).
+
+V0.3 : Ajout de la fonction réglage de l’heure, par 2 boutons un pour les minutes et un pour les heures.

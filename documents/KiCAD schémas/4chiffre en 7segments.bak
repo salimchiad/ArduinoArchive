@@ -1,0 +1,434 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC595 U?
+U 1 1 52F7515B
+P 3750 2550
+F 0 "U?" H 3900 3150 70  0000 C CNN
+F 1 "74HC595" H 3750 1950 70  0000 C CNN
+F 2 "~" H 3750 2550 60  0000 C CNN
+F 3 "~" H 3750 2550 60  0000 C CNN
+	1    3750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDSP-7XXX-A AFF?
+U 1 1 52F751A9
+P 6350 2500
+F 0 "AFF?" H 6350 3050 60  0000 C CNN
+F 1 "HDSP-7XXX-A" H 6350 2050 60  0000 C CNN
+F 2 "" H 6350 2500 60  0000 C CNN
+F 3 "" H 6350 2500 60  0000 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2100 5750 2100
+Wire Wire Line
+	4950 2200 5750 2200
+Wire Wire Line
+	4950 2300 5750 2300
+Wire Wire Line
+	4950 2400 5750 2400
+Wire Wire Line
+	4950 2500 5750 2500
+Wire Wire Line
+	4950 2600 5750 2600
+Wire Wire Line
+	4950 2700 5750 2700
+Wire Wire Line
+	4950 2800 5800 2800
+Wire Wire Line
+	5800 2800 5800 3100
+Wire Wire Line
+	5800 3100 6950 3100
+Wire Wire Line
+	6950 3100 6950 2750
+$Comp
+L HDSP-7XXX-A AFF?
+U 1 1 52F7521D
+P 6350 3750
+F 0 "AFF?" H 6350 4300 60  0000 C CNN
+F 1 "HDSP-7XXX-A" H 6350 3300 60  0000 C CNN
+F 2 "" H 6350 3750 60  0000 C CNN
+F 3 "" H 6350 3750 60  0000 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDSP-7XXX-A AFF?
+U 1 1 52F7522C
+P 6350 4900
+F 0 "AFF?" H 6350 5450 60  0000 C CNN
+F 1 "HDSP-7XXX-A" H 6350 4450 60  0000 C CNN
+F 2 "" H 6350 4900 60  0000 C CNN
+F 3 "" H 6350 4900 60  0000 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDSP-7XXX-A AFF?
+U 1 1 52F7523B
+P 6350 6000
+F 0 "AFF?" H 6350 6550 60  0000 C CNN
+F 1 "HDSP-7XXX-A" H 6350 5550 60  0000 C CNN
+F 2 "" H 6350 6000 60  0000 C CNN
+F 3 "" H 6350 6000 60  0000 C CNN
+	1    6350 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3350 5600 3350
+Wire Wire Line
+	5600 2100 5600 5600
+Connection ~ 5600 2100
+Wire Wire Line
+	5750 3450 5550 3450
+Wire Wire Line
+	5550 2200 5550 5700
+Connection ~ 5550 2200
+Wire Wire Line
+	5750 3550 5500 3550
+Wire Wire Line
+	5500 2300 5500 5800
+Connection ~ 5500 2300
+Wire Wire Line
+	5750 3650 5450 3650
+Wire Wire Line
+	5450 2400 5450 5900
+Connection ~ 5450 2400
+Wire Wire Line
+	5750 3750 5400 3750
+Wire Wire Line
+	5400 2500 5400 6000
+Connection ~ 5400 2500
+Wire Wire Line
+	5750 3850 5350 3850
+Wire Wire Line
+	5350 2600 5350 6100
+Connection ~ 5350 2600
+Wire Wire Line
+	5750 3950 5300 3950
+Wire Wire Line
+	5300 2800 5300 6200
+Connection ~ 5300 2800
+Wire Wire Line
+	6950 4000 7050 4000
+Wire Wire Line
+	7050 2750 7050 6250
+Wire Wire Line
+	6950 2750 7050 2750
+Wire Wire Line
+	7050 5150 6950 5150
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 6250 6950 6250
+Connection ~ 7050 5150
+Wire Wire Line
+	5600 4500 5750 4500
+Connection ~ 5600 3350
+Wire Wire Line
+	5550 4600 5750 4600
+Connection ~ 5550 3450
+Wire Wire Line
+	5500 4700 5750 4700
+Connection ~ 5500 3550
+Wire Wire Line
+	5450 4800 5750 4800
+Connection ~ 5450 3650
+Wire Wire Line
+	5400 4900 5750 4900
+Connection ~ 5400 3750
+Wire Wire Line
+	5350 5000 5750 5000
+Connection ~ 5350 3850
+Wire Wire Line
+	5300 5100 5750 5100
+Connection ~ 5300 3950
+Wire Wire Line
+	5600 5600 5750 5600
+Connection ~ 5600 4500
+Wire Wire Line
+	5550 5700 5750 5700
+Connection ~ 5550 4600
+Wire Wire Line
+	5500 5800 5750 5800
+Connection ~ 5500 4700
+Wire Wire Line
+	5450 5900 5750 5900
+Connection ~ 5450 4800
+Wire Wire Line
+	5400 6000 5750 6000
+Connection ~ 5400 4900
+Wire Wire Line
+	5350 6100 5750 6100
+Connection ~ 5350 5000
+Wire Wire Line
+	5300 6200 5750 6200
+Connection ~ 5300 5100
+$Comp
+L 74HC595 U?
+U 1 1 52F75694
+P 4150 1250
+F 0 "U?" H 4300 1850 70  0000 C CNN
+F 1 "74HC595" H 4150 650 70  0000 C CNN
+F 2 "~" H 4150 1250 60  0000 C CNN
+F 3 "~" H 4150 1250 60  0000 C CNN
+	1    4150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 800  7250 800 
+Wire Wire Line
+	7250 800  7250 2050
+Wire Wire Line
+	7250 2050 6950 2050
+Wire Wire Line
+	4850 900  7300 900 
+Wire Wire Line
+	7300 900  7300 3300
+Wire Wire Line
+	7300 3300 6950 3300
+Wire Wire Line
+	4850 1000 7350 1000
+Wire Wire Line
+	7350 1000 7350 4450
+Wire Wire Line
+	7350 4450 6950 4450
+Wire Wire Line
+	6950 5550 7400 5550
+Wire Wire Line
+	7400 5550 7400 1100
+Wire Wire Line
+	7400 1100 4850 1100
+$Comp
+L LED D?
+U 1 1 52F757FE
+P 5650 1300
+F 0 "D?" H 5650 1400 50  0000 C CNN
+F 1 "LED" H 5650 1200 50  0000 C CNN
+F 2 "~" H 5650 1300 60  0000 C CNN
+F 3 "~" H 5650 1300 60  0000 C CNN
+	1    5650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F7580D
+P 5650 1600
+F 0 "D?" H 5650 1700 50  0000 C CNN
+F 1 "LED" H 5650 1500 50  0000 C CNN
+F 2 "~" H 5650 1600 60  0000 C CNN
+F 3 "~" H 5650 1600 60  0000 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75ADA
+P 4700 2100
+F 0 "R?" V 4780 2100 40  0000 C CNN
+F 1 "R" V 4707 2101 40  0000 C CNN
+F 2 "~" V 4630 2100 30  0000 C CNN
+F 3 "~" H 4700 2100 30  0000 C CNN
+	1    4700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B03
+P 4700 2200
+F 0 "R?" V 4780 2200 40  0000 C CNN
+F 1 "R" V 4707 2201 40  0000 C CNN
+F 2 "~" V 4630 2200 30  0000 C CNN
+F 3 "~" H 4700 2200 30  0000 C CNN
+	1    4700 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B12
+P 4700 2300
+F 0 "R?" V 4780 2300 40  0000 C CNN
+F 1 "R" V 4707 2301 40  0000 C CNN
+F 2 "~" V 4630 2300 30  0000 C CNN
+F 3 "~" H 4700 2300 30  0000 C CNN
+	1    4700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B26
+P 4700 2400
+F 0 "R?" V 4780 2400 40  0000 C CNN
+F 1 "R" V 4707 2401 40  0000 C CNN
+F 2 "~" V 4630 2400 30  0000 C CNN
+F 3 "~" H 4700 2400 30  0000 C CNN
+	1    4700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B35
+P 4700 2500
+F 0 "R?" V 4780 2500 40  0000 C CNN
+F 1 "R" V 4707 2501 40  0000 C CNN
+F 2 "~" V 4630 2500 30  0000 C CNN
+F 3 "~" H 4700 2500 30  0000 C CNN
+	1    4700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B44
+P 4700 2600
+F 0 "R?" V 4780 2600 40  0000 C CNN
+F 1 "R" V 4707 2601 40  0000 C CNN
+F 2 "~" V 4630 2600 30  0000 C CNN
+F 3 "~" H 4700 2600 30  0000 C CNN
+	1    4700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B53
+P 4700 2700
+F 0 "R?" V 4780 2700 40  0000 C CNN
+F 1 "R" V 4707 2701 40  0000 C CNN
+F 2 "~" V 4630 2700 30  0000 C CNN
+F 3 "~" H 4700 2700 30  0000 C CNN
+	1    4700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75B71
+P 4700 2800
+F 0 "R?" V 4780 2800 40  0000 C CNN
+F 1 "R" V 4707 2801 40  0000 C CNN
+F 2 "~" V 4630 2800 30  0000 C CNN
+F 3 "~" H 4700 2800 30  0000 C CNN
+	1    4700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F75B82
+P 6300 1350
+F 0 "D?" H 6300 1450 50  0000 C CNN
+F 1 "LED" H 6300 1250 50  0000 C CNN
+F 2 "~" H 6300 1350 60  0000 C CNN
+F 3 "~" H 6300 1350 60  0000 C CNN
+	1    6300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F75B91
+P 6300 1650
+F 0 "D?" H 6300 1750 50  0000 C CNN
+F 1 "LED" H 6300 1550 50  0000 C CNN
+F 2 "~" H 6300 1650 60  0000 C CNN
+F 3 "~" H 6300 1650 60  0000 C CNN
+	1    6300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1200 5450 1300
+Wire Wire Line
+	5850 1300 5850 1800
+Wire Wire Line
+	5850 1800 5300 1800
+Wire Wire Line
+	5300 1800 5300 1400
+Wire Wire Line
+	5300 1400 4850 1400
+Connection ~ 5850 1600
+Wire Wire Line
+	5350 1300 5350 1600
+Wire Wire Line
+	5350 1600 5450 1600
+Wire Wire Line
+	6100 1200 6100 1350
+Wire Wire Line
+	5350 1450 6100 1450
+Wire Wire Line
+	6100 1450 6100 1650
+Connection ~ 5350 1450
+Wire Wire Line
+	4850 1500 5250 1500
+Wire Wire Line
+	5250 1500 5250 1850
+Wire Wire Line
+	5250 1850 6500 1850
+Wire Wire Line
+	6500 1850 6500 1350
+Connection ~ 6500 1650
+$Comp
+L R R?
+U 1 1 52F75EC8
+P 5200 1200
+F 0 "R?" V 5280 1200 40  0000 C CNN
+F 1 "R" V 5207 1201 40  0000 C CNN
+F 2 "~" V 5130 1200 30  0000 C CNN
+F 3 "~" H 5200 1200 30  0000 C CNN
+	1    5200 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F75EDC
+P 5100 1300
+F 0 "R?" V 5180 1300 40  0000 C CNN
+F 1 "R" V 5107 1301 40  0000 C CNN
+F 2 "~" V 5030 1300 30  0000 C CNN
+F 3 "~" H 5100 1300 30  0000 C CNN
+	1    5100 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 1200 4850 1200
+$EndSCHEMATC

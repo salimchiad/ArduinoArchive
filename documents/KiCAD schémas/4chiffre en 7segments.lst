@@ -1,0 +1,48 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/02/2014 11:51:39
+#Cmp ( ordre = Référence )
+| AFF1       HDSP-7XXX-A 
+| AFF2       HDSP-7XXX-A 
+| AFF3       HDSP-7XXX-A 
+| AFF4       HDSP-7XXX-A 
+| D1         LED         
+| D2         LED         
+| D3         LED         
+| D4         LED         
+| R1         R           
+| R2         R           
+| R3         R           
+| R4         R           
+| R5         R           
+| R6         R           
+| R7         R           
+| R8         R           
+| R9         R           
+| R10        R           
+| U1         74HC595     
+| U2         74HC595     
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| HDSP-7XXX-A  AFF1      
+| HDSP-7XXX-A  AFF2      
+| HDSP-7XXX-A  AFF3      
+| HDSP-7XXX-A  AFF4      
+| LED          D1        
+| LED          D2        
+| LED          D3        
+| LED          D4        
+| R            R1        
+| R            R2        
+| R            R3        
+| R            R4        
+| R            R5        
+| R            R6        
+| R            R7        
+| R            R8        
+| R            R9        
+| R            R10       
+| 74HC595      U1        
+| 74HC595      U2        
+#End Cmp
+
+#End List
